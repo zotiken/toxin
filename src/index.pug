@@ -1,0 +1,80 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  meta(http-equiv='X-UA-Compatible' content='ie=edge')
+  title TOXIN
+  //- link(rel='stylesheet' href='/css/base.css')
+header.page-header
+  h1(class='visually-hidden') Бронирование отелей и гостиниц
+  nav(class='page-header__item nav')
+    div(class='page-header__wrapper wrapper')
+      div(class='container-logo')
+        include img/logo.svg
+      ul(class='page-header__item page-navigation')
+        li.page-navigation__item
+          a(href='#') О нас
+        li.page-navigation__item.service
+           a.service__link(href='#') Услуги
+           ul.service__list.hidden
+            li 1
+            li 2
+        li.page-navigation__item
+          a(href='#') Вакансии
+        li.page-navigation__item
+          a(href='#') Новости
+        li.page-navigation__item.indenture
+          a.indenture__link(href='#') Соглашения
+          ul.indenture__list.hidden
+            li 1
+            li 2
+
+      ul(class='page-header__item user-navigation')
+        li(class='user-navigation__item authorization')
+          button(class='authorization__button button') войти
+        li.user-navigation__item.registration
+          button.registration__button.button зарегистрироваться
+  //- section.page-header__item.banner
+  //-   .page-header__wrapper.wrapper
+main.home-page
+
+footer.page-footer
+  section.page-footer__navigation
+    div.page-footer__wrapper.wrapper
+      ul.page-footer__item.block.block-navigation
+        h2.block__title навигация
+        li
+          a(href='#') О нас
+        li
+          a(href='#') Новости
+        li
+          a(href='#') Служба поддержки
+        li
+          a(href='#') Услуги
+      ul.page-footer__item.block.block-about
+        h2.block__title о нас
+        li
+          a(href='#') О сервисе
+        li
+          a(href='#') Наша команда
+        li
+          a(href='#') Вакансии
+        li
+          a(href='#') Инвесторы
+      ul.page-footer__item.block.block-supports
+        h2.block__title Служба поддержки
+        li
+          a(href='#') Соглашения
+        li
+          a(href='#') Сообщества
+        li
+          a(href='#') Связь с нами
+      form.page-footer__item.block.block-subscription
+       h2.block__title подписка
+       p Получайте специальные предложения и новости сервиса
+       input(type="email" placeholder="Email")
+       button(type="submit")
+  section.page-footer__copyright
+    .page-footer__wrapper.wrapper
+
+    script(src='./main.js')

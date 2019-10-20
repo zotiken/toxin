@@ -1,0 +1,133 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  border: 0 !important;
+  padding: 0 !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.hidden {
+  display: none;
+}
+
+.button {
+  border: none;
+  border-radius: 22px;
+  background: none;
+  padding: 0 20px;
+  height: 34px;
+  text-transform: uppercase;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 80.55%;
+}
+
+.page-header {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: #ffffff;
+  width: 100%;
+}
+.page-header__item {
+  display: flex;
+}
+
+nav {
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.page-navigation {
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  width: 44.97%;
+}
+.page-navigation li {
+  list-style: none;
+}
+.page-navigation li a {
+  text-decoration: none;
+  line-height: 17px;
+  color: #1f2041;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.user-navigation li {
+  list-style: none;
+}
+.user-navigation li button {
+  margin-left: 20px;
+  line-height: 15px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.authorization .authorization__button {
+  border: 2px solid #bc9cff;
+  background: #ffffff;
+  color: #bc9cff;
+}
+
+.registration .registration__button {
+  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  color: #ffffff;
+}
+
+.home-page {
+  background-color: #E5E5E5;
+  background-image: url("/image3.d5e81edb.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 900px;
+}
+
+.service__link::after {
+  background-image: url("/expand_more.60ec3e73.png");
+  width: 24px;
+  height: 21px;
+}
+
+.indenture__link::after {
+  background-image: url("/expand_more.60ec3e73.png");
+  width: 24px;
+  height: 21px;
+}
+
+.block li {
+  list-style: none;
+}
+.block li a {
+  text-decoration: none;
+}
+
+footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/*# sourceMappingURL=/main.1f19ae8e.css.map */
