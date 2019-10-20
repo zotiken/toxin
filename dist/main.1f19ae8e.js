@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"C:\\Users\\никита\\Downloads\\developers\\toxin\\src\\img\\image3.png":[["image3.d5e81edb.png","img/image3.png"],"img/image3.png"],"C:\\Users\\никита\\Downloads\\developers\\toxin\\src\\img\\expand_more.png":[["expand_more.60ec3e73.png","img/expand_more.png"],"img/expand_more.png"],"_css_loader":"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"main.js":[function(require,module,exports) {
+},{"C:\\Users\\никита\\Downloads\\developers\\toxin\\src\\img\\image3.png":[["image3.d5e81edb.png","img/image3.png"],"img/image3.png"],"C:\\Users\\никита\\Downloads\\developers\\toxin\\src\\img\\expand_more.png":[["expand_more.60ec3e73.png","img/expand_more.png"],"img/expand_more.png"],"./img\\arrow_forward.png":[["arrow_forward.9a1d52d1.png","img/arrow_forward.png"],"img/arrow_forward.png"],"_css_loader":"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"main.js":[function(require,module,exports) {
 "use strict";
 
 require("./main.scss");
@@ -223,7 +223,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52582" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57453" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
