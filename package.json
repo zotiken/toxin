@@ -18,7 +18,7 @@
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "1.x",
     "autoprefixer": "^9.6.1",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "sass": "^1.23.0",
     "stylelint": "10.1.x",
     "stylelint-config-htmlacademy": "^0.1.4"
